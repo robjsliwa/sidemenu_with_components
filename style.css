@@ -39,6 +39,7 @@
 
 .topbar {
   background: #FFFFFF;
+  border-bottom: solid 1px #CFD1D4;
   z-index: 999;
   position: fixed;
   top: 0;
@@ -56,13 +57,17 @@
   color: #FFFFFF;
   padding: 10px 15px 10px 15px; }
 
+.menu-item-selected {
+  background: #39404E;
+  color: #FFFFFF;
+  padding: 10px 15px 10px 15px; }
+
 .menu-item:hover {
   background: #5D6067; }
 
 .page-content-wrapper {
   position: absolute;
   width: 100%;
-  background: #E9EBEE;
   padding-top: 60px;
   margin-bottom: -60px; }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class MenuViewContainer extends React.Component {
+export default class MenuContentPageWrapper extends React.Component {
   render() {
     return <div>
 

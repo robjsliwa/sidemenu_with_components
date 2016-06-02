@@ -1,24 +1,9 @@
 import React from 'react';
 import Menu from './menu';
 import MenuItem from './menu-item';
-import MenuViewContainer from './menu-view-container';
+import MenuContentPageWrapper from './menu-content-page-wrapper';
 
 export default class MainMenu extends React.Component {
-  /*
-  <div className="topbar">
-    <div className="dropdown">
-      <i className="dropdown-toggle fa fa-user" aria-hidden="true" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      </i>
-      <ul className="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Action</a></li>
-        <li><a href="#">Another action</a></li>
-        <li><a href="#">Something else here</a></li>
-        <li role="separator" className="divider"></li>
-        <li><a href="#">Separated link</a></li>
-      </ul>
-    </div>
-  </div>
-  */
   render() {
     return <div className="wrapper">
       <div className="sidebar">
@@ -115,7 +100,7 @@ export default class MainMenu extends React.Component {
                     <p>test</p>
                     <p>test</p>
                     <p>test</p>
-          <MenuViewContainer />
+          <MenuContentPageWrapper />
         </div>
       </div>
     </div>
