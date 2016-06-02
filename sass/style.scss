@@ -1,11 +1,18 @@
-.sidebar {
-  display: block;
+.wrapper {
+  padding-left: 250px;
   position: absolute;
-  //z-index: 2;
-  top: 0;
+  margin-right: -250px;
+}
+
+.sidebar {
+  background: #4A4F56;
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
   width: 250px;
   height: 100%;
-  background: #4A4F56;
+  margin-left: -250px;
+  overflow-y: auto;
 }
 
 .sidebar-header {
@@ -37,12 +44,14 @@
 }
 
 .topbar {
-  top: 0;
-  margin-left: 250px;
-  margin-right: 0;
-  height: 60px;
   background: #FFFFFF;
-  border-bottom: solid 1px #F0F0F0;
+
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  margin-left: -250px;
 }
 
 .menu {
@@ -60,14 +69,13 @@
   background: #5D6067;
 }
 
-.menu-view-container {
-  //position: absolute;
-  //height: 100%;
-  //width: 100%;
-  //top: 60px;
-  //margin-left: 250px;
-  //margin-right: 0;
+.page-content-wrapper {
+  position: absolute;
+  width: 100%;
+  //padding: 15px;
   background: #E9EBEE;
+  padding-top: 60px;
+  margin-bottom: -60px;
 }
 
 .dropdown {
