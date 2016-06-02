@@ -1,0 +1,63 @@
+.sidebar {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background: #4A4F56; }
+
+.sidebar-header {
+  width: auto;
+  height: 60px;
+  background: #4E5665; }
+
+.sidebar-header > div {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px; }
+
+.sidebar-footer {
+  position: fixed;
+  width: 250px;
+  height: 60px;
+  bottom: 0;
+  background: #4A4F56; }
+
+.sidebar-footer > div {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 15px; }
+
+.topbar {
+  top: 0;
+  margin-left: 250px;
+  margin-right: 0;
+  height: 60px;
+  background: #FFFFFF;
+  border-bottom: solid 1px #F0F0F0; }
+
+.menu {
+  position: absolute;
+  width: inherit;
+  height: 100%; }
+
+.menu-item {
+  color: #FFFFFF;
+  padding: 10px 15px 10px 15px; }
+
+.menu-item:hover {
+  background: #5D6067; }
+
+.menu-view-container {
+  background: #E9EBEE; }
+
+.dropdown {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer; }
+
+.dropdown-toggle {
+  font-size: 28px; }

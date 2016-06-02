@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MainMenu from './components/main-menu';
 
 class App extends Component {
   constructor (props) {
@@ -8,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className='app-container'>
-        Sample App
+        <MainMenu />
       </div>
     );
   }
