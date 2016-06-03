@@ -2,6 +2,10 @@ import React from 'react';
 import Menu from './menu';
 import MenuItem from './menu-item';
 import MenuContentPageWrapper from './menu-content-page-wrapper';
+import PageOne from './page-one';
+import PageTwo from './page-two';
+import PageThree from './page-three';
+import PageFour from './page-four';
 
 export default class MainMenu extends React.Component {
   render() {
@@ -15,8 +19,6 @@ export default class MainMenu extends React.Component {
           <MenuItem id="2">Component Two</MenuItem>
           <MenuItem id="3">Component Three</MenuItem>
           <MenuItem id="4">Component Four</MenuItem>
-          <MenuItem id="5">Component Five</MenuItem>
-          <MenuItem id="6">Component Six</MenuItem>
         </Menu>
       </div>
       <div className="page-content-wrapper">
@@ -34,73 +36,12 @@ export default class MainMenu extends React.Component {
           </div>
         </div>
         <div className="container-fluid">
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-          <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-            <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-              <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                  <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
-          <MenuContentPageWrapper />
+          <MenuContentPageWrapper default="2">
+            <PageOne id="1" />
+            <PageTwo id="2" />
+            <PageThree id="3" />
+            <PageFour id="4" />
+          </MenuContentPageWrapper>
         </div>
       </div>
     </div>
